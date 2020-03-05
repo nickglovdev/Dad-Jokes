@@ -1,0 +1,17 @@
+.dadContainer {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dadJokeContainer {
+    list-style:none;
+    border: 1px solid black;
+    flex-basis: 29%
+}
+
+.joke__list  {
+    list-style:none;
+}
