@@ -1,9 +1,7 @@
 .dadContainer {
     display: flex;
     flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    align-content: space-between;
 }
 
 .dadJokeContainer {
@@ -13,5 +11,10 @@
 }
 
 .joke__list  {
+    margin:6px 0;
     list-style:none;
+}
+
+.joke__answer {
+    font-weight: bold;
 }
