@@ -1,0 +1,20 @@
+.dadContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.dadJokeContainer {
+    list-style:none;
+    border: 1px solid black;
+    flex-basis: 29%
+}
+
+.joke__list  {
+    margin:6px 0;
+    list-style:none;
+}
+
+.joke__answer {
+    font-weight: bold;
+}
